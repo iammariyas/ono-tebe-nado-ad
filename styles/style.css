@@ -125,13 +125,13 @@
   justify-content: space-between; 
   align-items: center; 
   margin-top: 20px; 
-  font-size: 22px; 
+  font-size: 22px;
 }
 
 .cover-description-text {
   padding-left: 28px; 
   line-height: 28px; 
-  word-spacing: 20px; 
+  word-spacing: 20px;
 }
 
 .cover-description-text span {
@@ -174,7 +174,7 @@
 
 .lots-card-list-item {
   position: relative; 
-  list-style: none; 
+  list-style: none;
 }
 
 .card-link {
@@ -321,7 +321,7 @@
 .footer {
   display: grid;
   grid-template-columns: 1fr 149px 1fr;
-  padding: 0px 50px 88px;
+  padding: 0 50px 88px;
 }
 
 .footer-menu {
