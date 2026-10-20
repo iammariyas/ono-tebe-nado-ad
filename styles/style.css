@@ -121,16 +121,16 @@
 .cover-description {
   position: relative;
   z-index: 1;
-  display: flex; 
-  justify-content: space-between; 
-  align-items: center; 
-  margin-top: 20px; 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
   font-size: 22px;
 }
 
 .cover-description-text {
-  padding-left: 28px; 
-  line-height: 28px; 
+  padding-left: 28px;
+  line-height: 28px;
   word-spacing: 20px;
 }
 
@@ -173,7 +173,7 @@
 }
 
 .lots-card-list-item {
-  position: relative; 
+  position: relative;
   list-style: none;
 }
 
@@ -211,11 +211,11 @@
 }
 
 .card-title {
-  z-index: 1; 
-  font-weight: 700; 
-  font-size: 22px; 
-  line-height: 26.4px; 
-  text-decoration: underline; 
+  z-index: 1;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 26.4px;
+  text-decoration: underline;
   text-decoration-thickness: 1px;
   text-decoration-skip-ink: false;
   text-underline-offset: 3px;
