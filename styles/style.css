@@ -69,10 +69,11 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding: 50px;
-  color: #ffffff;
+  min-height: 512px;
+  padding: 105px 50px 34px;
+  color: #fff;
   text-transform: uppercase;
-  background-image: url(../images/cover.jpg);
+  background-image: url("../images/cover.jpg");
   background-position: center;
   background-size: cover;
 }
@@ -81,28 +82,31 @@
   position: absolute;
   inset: 0 0;
   z-index: 0;
-  opacity: 0.6;
   background-color: black;
+  background-color: rgb(0 0 0 / 60%);
 }
 
 .cover-title {
   position: relative;
   z-index: 1;
-  padding: 115px 0;
-  font-weight: 700;
+  display: grid;
+  grid-template-rows: repeat(3, min-content);
+  margin: 0 0 60px;
+  padding: 0;
   font-size: 100px;
   line-height: 115px;
+  font-weight: 700;
   letter-spacing: 0.3em;
 }
 
 .aligned-text {
   display: block;
-  padding-top: 19px;
+  padding-top: 0;
 }
 
 .letter-spacing-extended {
   font-size: 100px;
-  letter-spacing: 0.30em;
+  letter-spacing: 0.3em;
 }
 
 .aligned-text-center {
@@ -123,30 +127,44 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 20px;
-  font-size: 22px;
+  gap: 24px;
+  margin-top: auto;
 }
 
 .cover-description-text {
-  padding-left: 28px;
+  display: flex;
+  align-items: baseline;
+  gap: 0;
+  font-size: 14px;
   line-height: 28px;
-  word-spacing: 20px;
+  white-space: nowrap;
 }
 
-.cover-description-text span {
-  word-spacing: 18px;
+.ws-80 {
+    margin-left: calc(22px * 0.8);
+}
+
+.ws-90 {
+    margin-left: calc(22px * 0.9);
+}
+
+.ws-110 {
+    margin-left: calc(22px * 1.1);
 }
 
 /* Стили для кнопки ставки */
 .bet-button {
-  border: 1px white solid;
-  padding: 12px 32px;
-  color: #ffffff;
+  flex-shrink: 0;
+  width: 174px;
+  min-height: 35px;
+  padding: 8px 12px;
+  border: 1px solid #fff;
+  color: #fff;
   font-family: Raleway, sans-serif;
-  font-size: 22px;
-  line-height: 25.83px;
+  font-size: 14px;
+  line-height: 17px;
   text-transform: uppercase;
-  background-color: transparent;
+  background: transparent;
 }
 
 /* Стили для секции с лотами */
