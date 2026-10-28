@@ -1,12 +1,14 @@
 .header {
   display: grid;
-  grid-template-columns: 1fr 148px 1fr;
-  place-items: center;
-  padding: 92px 17px;
+  grid-template-columns: 1fr 148px 1fr;;
+  align-items: center;
+  font-size: 18px;
+  background-color: white;
+  padding: 92px 50px 96px;
 }
 
 .header-menu {
-  line-height: 21.13px;
+  line-height: 22px;
 }
 
 .header-links-list {
@@ -40,7 +42,8 @@
 }
 
 .header-logo-image {
-  width: 136px;
+  display: block;
+  width: 148px;
 }
 
 /* Стили для адреса */
@@ -60,7 +63,7 @@
 
 .header-address {
   justify-self: end;
-  padding-right: 70px;
+  width: 240px;
 }
 
 /* Стили для обложки */
@@ -82,7 +85,6 @@
   position: absolute;
   inset: 0 0;
   z-index: 0;
-  background-color: black;
   background-color: rgb(0 0 0 / 60%);
 }
 
@@ -143,8 +145,11 @@
   display: flex;
   align-items: baseline;
   gap: 0;
+  font-weight: 400;
   font-size: 22px;
   line-height: 28px;
+  letter-spacing: 0;
+  text-transform: uppercase;
   white-space: nowrap;
 }
 
