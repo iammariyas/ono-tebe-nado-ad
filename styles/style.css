@@ -97,21 +97,20 @@
 
 .aligned-text {
   display: block;
+  padding-top: 19px;
 }
 
 .letter-spacing-extended {
-  letter-spacing: 0.6em;
-  margin-right: -0.6em;
+  font-size: 100px;
+  letter-spacing: 0.30em;
 }
 
 .aligned-text-center {
-  line-height: 140px;
-  text-align: center;
+  justify-self: center;
 }
 
 .aligned-text-right {
-  line-height: 100px;
-  text-align: end;
+  justify-self: end;
 }
 
 .no-letter-spacing {
